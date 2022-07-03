@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elitedisplay=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center">
+        <h2>Animal Sound Identifier</h2>
+        <p>Note: tells if it hears meowing, mooing, barking, or roaring</p>
+    </div>
+    <div class="main_div">
+      <center>
+        <button class="btn btn-warning" onclick="startClassification()"> Start </button>
+        <h4 id="times-heard">Amount of times sound heard - </h4>
+        <h3 id="sound">Sound Identified - </h3>
+        <br>
+        <img id="image" src="ear.jpg" width="250" height="250">
+      </center>
+    </div>
+    <div class="copy_right_footer"> Developed by - Manraj </div>
+<script src="main.js"></script>
+  </body>
+</html>
